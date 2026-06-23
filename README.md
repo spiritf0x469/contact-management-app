@@ -1,31 +1,31 @@
-# Contact Management App
+# contact management app
 
-A full-stack web application for managing contacts built using React and Flask.
-
----
-
-## 🚀 Features
-
-* Create,read,update,delete contacts (CRUD)
-* Stores first name,last name and email
-* REST API integration between frontend and backend
+a full-stack web application for managing contacts built using react and flask.
 
 ---
 
-## 🛠️ Tech Stack
+## features
 
-* React
-* Flask
-* Flask-CORS
-* Flask-SQLAlchemy
-* Python
-* SQLite
+* create,read,update and delete contacts (crud)
+* stores first name,last name and email
+* rest api integration between frontend and backend
 
 ---
 
-## ⚙️ How to Run Locally
+## tech stack
 
-### 1. Clone the repository
+* react
+* flask
+* flask-cors
+* flask-sqlalchemy
+* python
+* sqlite
+
+---
+
+## how to run locally
+
+### 1. clone the repository
 
 ```bash
 git clone https://github.com/your-username/contact-management-app.git
@@ -34,27 +34,27 @@ cd contact-management-app
 
 ---
 
-### 2. Backend Setup (Flask)
+### 2. backend setup (flask)
 
 ```bash
-cd backend   # if backend folder exists
+cd backend
 python -m venv venv
-venv\Scripts\activate   # Windows
-# source venv/bin/activate  # Mac/Linux
+venv\scripts\activate   # windows
+# source venv/bin/activate  # mac/linux
 
 pip install flask flask-sqlalchemy flask-cors
 py main.py
 ```
 
-Backend runs on:
+backend runs on:
 
-```
+```text
 http://localhost:5000
 ```
 
 ---
 
-### 3. Frontend Setup (React)
+### 3. frontend setup (react)
 
 ```bash
 cd frontend
@@ -62,15 +62,26 @@ npm install
 npm run dev
 ```
 
-Frontend runs on:
+frontend runs on:
 
-```
-http://localhost:5173   # (Vite default)
+```text
+http://localhost:5173
 ```
 
 ---
 
-## 📌 Notes
+## notes
 
-* Start backend first,then frontend
-* Make sure API URLs match backend port
+* start backend first,then frontend
+* make sure api urls match backend port
+
+---
+
+## learning outcomes
+
+* building rest apis with flask
+* integrating react frontend with flask backend
+* implementing crud operations
+* managing application state in react
+* database integration using sqlalchemy and sqlite
+* understanding full-stack web development fundamentals
