@@ -1,18 +1,18 @@
-# contact management app
+# 📇 contact management app
 
-a full-stack web application for managing contacts built using react and flask.
-
----
-
-## features
-
-* create,read,update and delete contacts (crud)
-* stores first name,last name and email
-* rest api integration between frontend and backend
+a full-stack web application for managing contacts built using react and flask. this project was built to learn rest api development, frontend-backend integration and crud operations.
 
 ---
 
-## tech stack
+## ✨ features
+
+* ➕ create, read, update and delete contacts (crud)
+* 👤 stores first name, last name and email
+* 🔗 rest api integration between frontend and backend
+
+---
+
+## 🛠️ tech stack
 
 * react
 * flask
@@ -23,9 +23,9 @@ a full-stack web application for managing contacts built using react and flask.
 
 ---
 
-## how to run locally
+## ⚙️ how to run locally
 
-### 1. clone the repository
+### 1️⃣ clone the repository
 
 ```bash
 git clone https://github.com/your-username/contact-management-app.git
@@ -34,7 +34,7 @@ cd contact-management-app
 
 ---
 
-### 2. backend setup (flask)
+### 2️⃣ backend setup (flask)
 
 ```bash
 cd backend
@@ -54,7 +54,7 @@ http://localhost:5000
 
 ---
 
-### 3. frontend setup (react)
+### 3️⃣ frontend setup (react)
 
 ```bash
 cd frontend
@@ -70,18 +70,13 @@ http://localhost:5173
 
 ---
 
-## notes
+## 📝 notes
 
-* start backend first,then frontend
-* make sure api urls match backend port
+* start backend first, then frontend.
+* make sure api urls match the backend port.
 
 ---
 
-## learning outcomes
+## 👨‍💻 author
 
-* building rest apis with flask
-* integrating react frontend with flask backend
-* implementing crud operations
-* managing application state in react
-* database integration using sqlalchemy and sqlite
-* understanding full-stack web development fundamentals
+**sameer sainii**
